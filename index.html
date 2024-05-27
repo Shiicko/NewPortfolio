@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/imagenes/ico.png" type="image/x-icon" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="contenedorDark">
+        <ul class="ul">
+          <li class="li"><a href="#Inicio" class="a">Inicio</a></li>
+          <li class="li"><a href="#proyectos" class="a">Proyectos</a></li>
+          <li class="li"><a href="#skills" class="a">Contacto</a></li>
+        </ul>
+        <div class="modo">
+          <label class="switch" id="darkbtn">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </nav>
+
+    <section id="Inicio" class="inicio">
+      <div class="contenedor">
+        <div class="titulos">
+          <h1>FrontEnd developer</h1>
+          <p>¡Hola! mi nombre es Joel, descubre mi portfolio.</p>
+          <div class="redes">
+            <span class="span">
+              <a href="https://github.com/Shiicko" target="_blank"
+                ><img src="/redes/github.png" alt=""
+              /></a>
+            </span>
+            <span class="span">
+              <a
+                href="https://www.linkedin.com/in/brian-elias-perfil/"
+                target="_blank"
+                ><img src="/redes/linkedin.png" alt=""
+              /></a>
+            </span>
+          </div>
+        </div>
+        <div class="imagen">
+          <img src="/imagenes/programa.png " alt="Imagen de ejemplo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+      <h2 class="h2Me">Proyectos...</h2>
+      <p>A continuacion encontraras mis proyectos mas recientes...</p>
+
+      <div class="container">
+        <div class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <a
+                  href="https://nucbaharley.vercel.app/index.html"
+                  target="_blank"
+                >
+                  <img src="/screenshot/Harley.jpg" alt="" />
+                  <div class="overlay">
+                    <p class="text">No es solo una moto...</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="splide__slide">
+                <a href="https://gym-rosy-two.vercel.app/" target="_blank">
+                  <img src="/screenshot/gym.avif" alt="" />
+                  <div class="overlay">
+                    <p class="text">Tu cuerpo... Tu templo</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="splide__slide">
+                <a href="https://cafeteria-zeta.vercel.app/" target="_blank">
+                  <img src="/screenshot/cafe.jpg" alt="" />
+                  <div class="overlay">
+                    <p class="text">El mejor café...</p>
+                  </div>
+                </a>
+              </li>
+              <li class="splide__slide">
+                <a href="https://abogado-opal.vercel.app/" target="_blank">
+                  <img src="/screenshot/backgw.webp" alt="" />
+                  <div class="overlay">
+                    <p class="text">
+                      Derechos protegidos... Justicia asegurada
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobremi" class="sobreMi">
+      <div class="aboutMain">
+        <h2 class="h2Me">SOBRE MI</h2>
+        <div class="separator"></div>
+        <div class="content">
+          <p>
+            Mi perfil como desarrollador web se respalda con una sólida
+            formación académica obtenida en instituciones de renombre como la
+            UNIVERSIDAD TECNOLOGICA NACIONAL Facultad Regional de Resistencia
+            (UTN FRRE), donde completé una diplomatura, y en NUCBA, donde obtuve
+            una certificación, evidenciando competencias técnicas sólidas. En la
+            actualidad, estoy en proceso de alcanzar la maestría en el
+            desarrollo fullstack en NUCBA, combinando mi experiencia y
+            conocimientos para ofrecer soluciones completas y efectivas en el
+            ámbito digital.
+          </p>
+          <span class="exp">
+            Tres años inmerso en el mundo del desarrollo web, con logros
+            destacados en una variedad de proyectos, respaldan mi experiencia y
+            conocimiento en el campo.
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container2">
+        <h2 class="h2Me">Habilidades</h2>
+        <ul class="skills-bar">
+          <li class="skill-item">
+            <img src="/Img/html.png" alt="HTML" />
+            <p>HTML</p>
+          </li>
+          <li class="skill-item">
+            <img src="/Img/css.png" alt="CSS" />
+            <p>CSS</p>
+          </li>
+          <li class="skill-item">
+            <img src="/Img/Js.png" alt="JavaScript" />
+            <p>JavaScript</p>
+          </li>
+          <li class="skill-item">
+            <img src="Img/csharp.png" alt="C#" />
+            <p>C#</p>
+          </li>
+          <li class="skill-item">
+            <img src="/Img/react.png" alt="React" />
+            <p>Cursando React</p>
+          </li>
+          <li class="skill-item">
+            <img src="/Img/angular.png" alt="Angular" />
+            <p>Cursando Angular</p>
+          </li>
+          <li class="skill-item">
+            <img src="/Img/tailwind.png" alt="Tailwind CSS" />
+            <p>Tailwind CSS</p>
+          </li>
+          <li class="skill-item">
+            <img src="/Img/boostrap.png" alt="Bootstrap" />
+            <p>Bootstrap</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container2">
+        <h2>Comunicate conmigo a través de los siguientes links...</h2>
+        <div class="contact-icons">
+          <a
+            href="mailto:joelias228@gmail.com"
+            target="_blank"
+            class="contact-icon"
+            ><img src="/redes/gmail.png" alt="Gmail"
+          /></a>
+          <a
+            href="https://x.com/Briiiann03"
+            target="_blank"
+            class="contact-icon"
+            ><img src="/redes/X.png" alt="X"
+          /></a>
+          <a
+            href="https://www.instagram.com/joel_elias.19/"
+            target="_blank"
+            class="contact-icon"
+            ><img src="/redes/instagram.png" alt="Instagram"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <footer id="footer">
+      <div class="container2">
+        <p>© 2024 Joel Brian Elias</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+      const splide = new Splide(".splide", {
+        type: "loop",
+        gap: "3rem",
+        padding: "5rem",
+        autoplay: "true",
+        interval: "2000",
+      });
+      splide.mount();
+    </script>
+  </body>
+</html>
